@@ -1,0 +1,14 @@
+{
+  "include": ["./src"],
+  "compilerOptions": {
+    "target": "ES2020", // Or "ES2017" as in your original config
+    "module": "ESNext", // Since you're using "type": "module" in package.json
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
